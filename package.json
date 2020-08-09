@@ -1,6 +1,6 @@
 {
   "name": "example-create-react-app-express",
-  "homepage": "https://giratinadev.github.io/pdv",
+  "homepage": "https://giratinadev.github.io/PDV",
   "version": "1.0.0",
   "scripts": {
     "predeploy": "cd client && npm run build",

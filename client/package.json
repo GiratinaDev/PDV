@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://giratinadev.github.io/pdv",
+  "homepage": "https://giratinadev.github.io/PDV",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
