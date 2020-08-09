@@ -1,0 +1,419 @@
+{
+    "0": {
+        "name": "Berlin City",
+        "type": "Coal",
+        "on": "Canvas",
+        "location": "SG",
+        "sold": false,
+        "file": "test.jpg",
+        "price": 13040,
+        "sub": "city",
+        "year": 2001,
+        "size": {
+            "height": 60,
+            "width": 80
+        }
+    },
+    "1": {
+        "name": "Coast",
+        "type": "Oil",
+        "on": "Paper",
+        "location": "SG",
+        "sold": false,
+        "file": "react.jpg",
+        "price": 1658,
+        "sub": "beach",
+        "year": 2005,
+        "size": {
+            "height": 60,
+            "width": 100
+        }
+    },
+    "2": {
+        "name": "Abstract",
+        "type": "Acrylic",
+        "on": "Canvas",
+        "location": "SG",
+        "sold": false,
+        "file": "react.jpg",
+        "price": 54861,
+        "sub": "none",
+        "year": 2010,
+        "size": {
+            "height": 60,
+            "width": 50
+        }
+    },
+    "3": {
+        "name": "Man",
+        "type": "Acrylic",
+        "on": "Canvas",
+        "location": "SG",
+        "sold": false,
+        "file": "react.jpg",
+        "price": 225100,
+        "sub": "people",
+        "year": 1998,
+        "size": {
+            "height": 100,
+            "width": 80
+        }
+    },
+    "4": {
+        "name": "Abstract",
+        "type": "Acrylic",
+        "on": "Canvas",
+        "location": "H",
+        "sold": false,
+        "file": "react.jpg",
+        "price": 145632,
+        "sub": "None",
+        "year": 1998,
+        "size": {
+            "width": 40,
+            "height": 80
+        }
+    },
+    "5": {
+        "name": "City",
+        "type": "Acrylic",
+        "on": "Canvas",
+        "location": "SG",
+        "sold": false,
+        "file": "react.jpg",
+        "price": 11201,
+        "sub": "city",
+        "year": 2001,
+        "size": {
+            "height": 60,
+            "width": 80
+        }
+    },
+    "6": {
+        "name": "Dancers",
+        "type": "Acrylic",
+        "on": "Canvas",
+        "location": "H",
+        "sold": false,
+        "file": "react.jpg",
+        "price": 123456,
+        "sub": "People",
+        "year": 2001,
+        "size": {
+            "width": 90,
+            "height": 60
+        }
+    },
+    "7": {
+        "name": "Virus",
+        "type": "",
+        "on": "",
+        "location": "E",
+        "sold": false,
+        "file": "react.jpg",
+        "sub": "",
+        "size": {
+            "height": 0,
+            "width": 0
+        }
+    },
+    "8": {
+        "name": "Virus",
+        "type": "",
+        "on": "",
+        "location": "E",
+        "sold": false,
+        "file": "react.jpg",
+        "size": {
+            "height": 0,
+            "width": 0
+        }
+    },
+    "9": {
+        "name": "Virus",
+        "type": "",
+        "on": "",
+        "location": "E",
+        "sold": false,
+        "file": "react.jpg",
+        "sub": ""
+    },
+    "10": {
+        "name": "Virus",
+        "type": "",
+        "on": "",
+        "location": "E",
+        "sold": false,
+        "file": "react.jpg"
+    },
+    "11": {
+        "name": "Newname",
+        "type": "Ink",
+        "on": "Canvas",
+        "location": "MF",
+        "sold": false,
+        "file": "NewName@fredux-react@.png",
+        "price": 12345,
+        "sub": "Digital",
+        "year": 2020,
+        "size": {
+            "width": 50,
+            "height": 50
+        }
+    },
+    "12": {
+        "name": "New",
+        "type": "Coal",
+        "on": "Paper",
+        "location": "EG",
+        "sold": false,
+        "file": "New@ftest.jpg",
+        "price": 10020,
+        "sub": "Beach",
+        "year": 2001,
+        "size": {
+            "height": 10,
+            "width": 10
+        }
+    },
+    "13": {
+        "name": "Name",
+        "type": "Ink",
+        "on": "Paper",
+        "location": "H",
+        "sold": true,
+        "file": "Name@fredux-react@.png",
+        "price": 10500,
+        "sub": "Digital",
+        "year": 2020,
+        "size": {
+            "height": 40,
+            "width": 40
+        }
+    },
+    "14": {
+        "name": "Na",
+        "type": "Coal",
+        "on": "Paper",
+        "location": "SG",
+        "sold": false,
+        "file": "Na@fP1010416.JPG",
+        "price": 100,
+        "sub": "Xyz",
+        "year": 2010,
+        "size": {
+            "width": 10,
+            "height": 10
+        }
+    },
+    "15": {
+        "name": "Title",
+        "type": "Med",
+        "on": "Sur",
+        "location": "AS",
+        "sold": false,
+        "file": "Title@fimage0.png.jpg",
+        "price": 12345,
+        "sub": "Sub",
+        "year": 2001,
+        "size": {
+            "height": 40,
+            "width": 40
+        }
+    },
+    "16": {
+        "name": "Title",
+        "type": "Med",
+        "on": "Sur",
+        "location": "H",
+        "sold": false,
+        "file": "Title@fredux-react@.png",
+        "price": 123,
+        "sub": "Sub",
+        "year": 1234,
+        "size": {
+            "height": 10,
+            "width": 10
+        }
+    },
+    "17": {
+        "name": "Title",
+        "type": "Medium",
+        "on": "Surface",
+        "location": "H",
+        "sold": false,
+        "file": "Title@ftest.jpg",
+        "price": 10000,
+        "sub": "Subject",
+        "year": 2012,
+        "size": {
+            "height": 25,
+            "width": 25
+        }
+    },
+    "18": {
+        "name": "Name",
+        "type": "Med",
+        "on": "Sur",
+        "location": "H",
+        "sold": false,
+        "file": "Name@freact.jpg",
+        "price": 54321,
+        "sub": "Subject",
+        "year": 2020,
+        "size": {
+            "height": 20,
+            "width": 10
+        }
+    },
+    "19": {
+        "name": "Title",
+        "type": "Med",
+        "on": "Sur",
+        "location": "H",
+        "sold": false,
+        "file": "Title@ftest.jpg",
+        "price": 54321,
+        "sub": "Logo",
+        "year": 2002,
+        "size": {
+            "height": 50,
+            "width": 50
+        }
+    },
+    "20": {
+        "name": "Name",
+        "type": "Med",
+        "on": "Sur",
+        "location": "H",
+        "sold": false,
+        "file": "Name@fredux-react@.png",
+        "price": 54321,
+        "sub": "Subject",
+        "year": 2005,
+        "size": {
+            "height": 50,
+            "width": 50
+        }
+    },
+    "21": {
+        "name": "Nama",
+        "type": "Med",
+        "on": "Sur",
+        "location": "MF",
+        "sold": false,
+        "file": "Nama@ftest.jpg",
+        "price": 12357,
+        "sub": "Subjecrt",
+        "year": 2003,
+        "size": {
+            "height": 25,
+            "width": 25
+        }
+    },
+    "22": {
+        "name": "Nme",
+        "type": "Med",
+        "on": "Sur",
+        "location": "AS",
+        "sold": false,
+        "file": "Nme@fimage0.png.jpg",
+        "price": 12357,
+        "sub": "Icon",
+        "year": 2001,
+        "size": {
+            "height": 25,
+            "width": 25
+        }
+    },
+    "23": {
+        "name": "Title",
+        "type": "Med",
+        "on": "Sur",
+        "location": "MF",
+        "sold": false,
+        "file": "Title@ftest.jpg",
+        "price": 12357,
+        "sub": "Sub",
+        "year": 2001,
+        "size": {
+            "height": 25,
+            "width": 25
+        }
+    },
+    "24": {
+        "name": "Plz",
+        "type": "Haha",
+        "on": "Meme",
+        "location": "H",
+        "sold": false,
+        "file": "Plz@fimage0.png.jpg",
+        "price": 69420,
+        "sub": "Wok",
+        "year": 2020,
+        "size": {
+            "height": 20,
+            "width": 20
+        }
+    },
+    "25": {
+        "name": "Plz",
+        "type": "No",
+        "on": "Meme",
+        "location": "H",
+        "sold": false,
+        "file": "Plz@freact.jpg",
+        "price": 12345,
+        "sub": "Wok",
+        "year": 2020,
+        "size": {
+            "height": 20,
+            "width": 20
+        }
+    },
+    "26": {
+        "name": "May",
+        "type": "Please",
+        "on": "Work",
+        "location": "SG",
+        "sold": false,
+        "file": "May@fimage0.png.jpg",
+        "price": 147852,
+        "sub": "This",
+        "year": 2020,
+        "size": {
+            "height": 20,
+            "width": 20
+        }
+    },
+    "27": {
+        "name": "Now",
+        "type": "Will",
+        "on": "Work",
+        "location": "H",
+        "sold": false,
+        "file": "Now@freact.jpg",
+        "price": 123654,
+        "sub": "It",
+        "year": 2020,
+        "size": {
+            "height": 20,
+            "width": 20
+        }
+    },
+    "28": {
+        "name": "Work",
+        "type": "Meme",
+        "on": "Haha",
+        "location": "H",
+        "sold": true,
+        "file": "Work@fimage0.png.jpg",
+        "price": 69420,
+        "sub": "Plase",
+        "year": 2020,
+        "size": {
+            "width": 20,
+            "height": 20
+        }
+    }
+}

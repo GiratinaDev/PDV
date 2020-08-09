@@ -1,0 +1,247 @@
+.sold {
+    text-align: left;
+    width: 10%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+}
+
+.sold-text {
+    align-self: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin-top: -25px;
+    padding: 5px 2px;
+    cursor: pointer;
+}
+
+.sold-text:hover {
+    background-color: rgb(65, 65, 65);
+    border-color: rgb(200, 195, 255);
+}
+
+.full-database {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.full-database td{
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    text-align: left;
+    text-align: center;
+}
+
+.full-database th {
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;    
+    position: sticky;
+    top: -1px;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-clip: padding-box;
+}
+
+.full-database th:hover {
+    color: rgb(255, 65, 65);
+}
+
+.thumbnail {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    z-index: -5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+
+td.edit {
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+td.edit:hover {
+    animation-name: spin;
+    animation-duration: 1ms;
+    animation-iteration-count: infinite;
+    color: rgb(255, 65, 65);
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+th.edit {
+    cursor: default;
+}
+
+th.edit:hover {
+    color: rgb(0, 0, 0);
+}
+
+.reset {
+    cursor: pointer;
+    float: right;
+    margin-right: 0.5vw;
+}
+
+.reset:hover {
+    color: rgb(123, 111, 255)
+}
+
+.database-wrapper {
+    position: sticky;
+    top: 7px;
+}
+
+.search-bar input {
+    float: right;
+    width: 9%;
+    height: 10%;
+    border: none;
+    outline: none;
+    background-color: black;
+    border-bottom: white 2px solid;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 2px
+}
+
+.filter {
+    float: right;
+}
+
+.add {
+    float: right;
+}
+
+.DSTitle {
+    margin: 0px;
+    float: left;
+    font-size: 40px;
+    margin-top: -12.5px;
+}
+
+.DSTitle-admin{
+    margin: 0px;
+    float: left;
+    font-size: 40px;
+    margin-top: -12.5px;
+    cursor: pointer;
+}
+
+.DSTitle-admin:hover {
+    color: rgb(123, 111, 255);
+}
+
+.add-button {
+    border: white 2px solid;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 1px 5px 2px;
+    margin-top: -10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.add-button:hover {
+    background-color: rgb(65, 65, 65);
+    border-color: rgb(200, 195, 255);
+}
+
+.filter-button {
+    border: white 2px solid;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 1px 5px 2px;
+    margin-top: -10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.filter-button:hover {
+    background-color: rgb(65, 65, 65);
+    border-color: rgb(200, 195, 255);
+}
+
+th.picture {
+    cursor: default;
+    width: 100px;
+}
+
+th.picture:hover {
+    color: rgb(0, 0, 0);
+}
+
+th.left {
+    cursor: default;
+    width: 100px;
+}
+
+th.left:hover {
+    color: rgb(0, 0, 0);
+}
+
+th.tax {
+    cursor: default;
+    width: 100px;
+}
+
+th.tax:hover {
+    color: rgb(0, 0, 0);
+}
+
+.hidden {
+    color: black;
+}
+
+.hidden-admin {
+    color: black;
+    cursor: pointer;
+}
+
+th.frame {
+    cursor: default;
+    width: 100px;
+}
+
+th.frame:hover {
+    color: rgb(0, 0, 0);
+}

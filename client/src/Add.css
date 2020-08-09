@@ -1,0 +1,176 @@
+.add-wrapper{
+    color: rgb(255, 255, 255);
+    font-size: 4vh;
+    position: absolute;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5%;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 0, 0);
+}
+  
+.add-user-page {
+    position: relative;
+    height: 97vh;
+}
+  
+.add-username-wrapper {
+    padding: 10px;
+    padding-bottom: 5px;
+}
+  
+.add-username-wrapper input {
+    width: 30vw;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px grey solid;
+    font-size: 13px;
+}
+  
+.add-password-wrapper {
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.add-password-wrapper input {
+    width: 30vw;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px grey solid;
+    font-size: 13px;
+}
+  
+.add-button-wrapper {
+    padding: 5px;
+    text-align: right;
+}
+
+.add-button-wrapper button {
+    margin: 0 5px 7.5px;
+}
+
+.add-admin-wrapper {
+    padding: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.add-admin-title {
+    padding-right: 15px;
+    margin-top: -3px;
+}
+
+.add-enter {
+    width: 7.5vw;
+    height: 4.25vh;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    cursor: pointer;
+    font-size: 3.25vh;
+}
+
+.add-enter:hover {
+    background-color: rgb(175, 175, 175);
+    border-color: rgb(175, 175, 175);
+}
+
+.add-name-wrapper {
+    padding: 10px;
+    padding-bottom: 5px;
+}
+  
+.add-name-wrapper input {
+    width: 30vw;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px grey solid;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.add-loc {
+    width: 10.5vw;
+    height: 4.25vh;
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    cursor: pointer;
+    font-size: 3.25vh;
+}
+
+.add-loc:hover {
+    background-color: rgb(175, 175, 175);
+    border-color: rgb(175, 175, 175);
+}
+
+.add-code-wrapper {
+    padding: 10px;
+    padding-bottom: 5px;
+    display: flex;
+
+}
+  
+.add-code-wrapper input {
+    width: 27.5px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px grey solid;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.add-rate-wrapper {
+    padding: 10px;
+    padding-bottom: 5px;
+    display: flex;
+
+}
+
+.add-rate-wrapper input {
+    width: 33px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px grey solid;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.question-mark {
+    margin-left: 10px;
+    margin-top: 7px;
+    border: white 1px solid;
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    width: 17.5px;
+    height: 17.5px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.question-mark:hover {
+    background-color: rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200);
+}

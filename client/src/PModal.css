@@ -1,0 +1,372 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.edit-modal {
+    position: fixed;
+    background-color: black;
+    height: 500px;
+    width: 750px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-height: 75%;
+    max-width: 75%;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.edit {
+    margin: 15px;
+}
+
+.image {
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    align-items: center;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: block;
+}
+
+.image img {
+    z-index: -5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+
+.name-input {
+    font-size: 18px;
+    width: 95%;
+    background-color: black;
+    color: white;
+    border: none; 
+    border-width: 0;
+    box-shadow: none;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    outline: none;
+}
+
+.lower {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.left {
+    border-right: 1px solid white;
+}
+
+.subject-input {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none; 
+    border-width: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.subject {
+    padding-top: 5px
+}
+
+.medium-edit {
+    display: flex;
+}
+
+.text {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+    font-size: 15px;
+}
+
+.size {
+    display: flex;
+    align-items: flex-end;
+    height: 90%
+}
+
+.high {
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+}
+
+
+.size div input {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none; 
+    border-width: 0;
+    box-shadow: none;
+    outline: none;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    text-align: center;
+}
+
+.size div {
+    width: 20px;
+    height: 60%;
+}
+
+.size div.text {
+    width: 10px;
+    text-align: center;
+    border-bottom: none;
+}
+
+.PMTitle {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom-style: solid;
+    color: grey;
+}
+
+.medium {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-bottom: 15px;
+}
+
+.medium-edit div input {
+    background-color: black;
+    color: white;
+    border: none; 
+    border-width: 0;
+    box-shadow: none;
+    outline: none;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    font-size: 18px;
+    width: 100%;
+}
+
+.input-medium  {
+    width: 25%;
+}
+
+.medium-edit div.text {
+    padding: 0px 10px;
+}
+
+.location select {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    width: 175px;
+    border: none;
+}
+
+.location select option {
+    background-color: black;
+}
+
+.location {
+    padding-bottom: 15px; 
+}
+
+.price div input {
+    background-color: black;
+    color: white;
+    border: none; 
+    border-width: 0;
+    box-shadow: none;
+    outline: none;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    font-size: 15px;
+    width: 50px;
+    text-align: right;
+}
+
+.price-edit {
+    display: flex;
+}
+
+.left-edit {
+    display: flex;
+}
+.tax-text {
+    margin: 0 auto;
+}
+
+.price {
+    padding-bottom: 15px;
+}
+
+.PMSold {
+    display: flex;
+    font-size: 20px;
+}
+
+.sold-title {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.end {
+    position: absolute;
+    top: 90.5%;
+    right: 2.5%;
+}
+
+.end button {
+    border-radius: 5px;
+    height: 25px;
+    width: 60px;
+    font-size: 15px;
+    border: solid 1.5px white;
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+}
+
+.end button:hover {
+    background-color: rgb(61, 61, 61);
+    color: wheat;
+    border-color: rgb(200, 200, 200);
+}
+
+.year input {
+    width: 35px;
+    height: 100%;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none; 
+    border-width: 0;
+    box-shadow: none;
+    outline: none;  
+}
+
+.year {
+    margin: auto auto 0 auto
+}
+
+button.del {
+    background-color: rgb(123, 0, 0);
+    color: red
+}
+
+button.del:hover {
+    background-color: rgb(150, 0, 0);
+}
+
+.full-price {
+    display: flex;
+}
+
+.checkbox {
+    display: flex;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7.5px;
+    border: solid black
+}
+  
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #ffffff; /*obvious change is obvious*/
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input:checked ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 6.5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
